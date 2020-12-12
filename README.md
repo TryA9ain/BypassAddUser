@@ -47,3 +47,6 @@ github地址：  https://github.com/jmalarcon/DotNetVersions
 ![images](https://github.com/TryA9ain/BypassAddUser_new/blob/master/Snipaste_2020-12-12_12-43-40.jpg)
 
 ![images](https://github.com/TryA9ain/BypassAddUser_new/blob/master/Snipaste_2020-12-12_12-43-48.jpg)
+
+## 参考链接
+https://docs.microsoft.com/zh-cn/troubleshoot/dotnet/csharp/add-user-local-system
