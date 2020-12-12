@@ -10,4 +10,16 @@
 **注意密码复杂性！！！**
 
 **注意密码复杂性！！！**
-### 2020.10.8更新：重构代码
+
+### 2020.12.12 更新：重构代码，加入添加rdp组功能
+
+```
+Usage: BypassAddUser.exe -u username -p password -g groups    添加用户
+       BypassAddUser.exe -u username -p password -g groups -rdp 添加用户，并添加到rdp组
+       BypassAddUser.exe -c UserName NewPassword    更改用户密码
+       BypassAddUser.exe -d UserName    删除用户
+Example: BypassAddUser.exe -u test -p testpass -g administrators
+         BypassAddUser.exe -u test -p testpass -g administrators -rdp
+         BypassAddUser.exe -c test NewtestPass
+         BypassAddUser.exe -d test
+```
