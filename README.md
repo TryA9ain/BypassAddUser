@@ -17,11 +17,13 @@
 
 可使用微软社区的工具来检查目标机器存在的`.net`版本
 
-```
 微软地址：   https://docs.microsoft.com/zh-cn/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed
+
 github地址：  https://github.com/jmalarcon/DotNetVersions
 
-```
+![images](https://github.com/TryA9ain/BypassAddUser_new/blob/master/Snipaste_2020-12-12_13-04-30.jpg)
+
+![images](https://github.com/TryA9ain/BypassAddUser_new/blob/master/Snipaste_2020-12-12_13-04-43.jpg)
 
 ```
 Usage: BypassAddUser.exe -u username -p password -g groups    添加用户
