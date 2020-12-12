@@ -13,7 +13,18 @@
 
 ### 2020.12.12 更新：重构代码，加入添加rdp组功能
 
-上传到目标机器注意目标机器存在的`.net`版本，win2008推荐3.5版本，win2012推荐4.0版本
+```
+Usage: BypassAddUser.exe -u username -p password -g groups    添加用户
+       BypassAddUser.exe -u username -p password -g groups -rdp    添加用户，并添加到rdp组
+       BypassAddUser.exe -c UserName NewPassword    更改用户密码
+       BypassAddUser.exe -d UserName    删除用户
+Example: BypassAddUser.exe -u test -p testpass -g administrators
+         BypassAddUser.exe -u test -p testpass -g administrators -rdp
+         BypassAddUser.exe -c test NewtestPass
+         BypassAddUser.exe -d test
+```
+
+### 上传到目标机器注意目标机器存在的`.net`版本，win2008推荐3.5版本，win2012推荐4.0版本
 
 可使用微软社区的工具来检查目标机器存在的`.net`版本
 
@@ -25,16 +36,7 @@ github地址：  https://github.com/jmalarcon/DotNetVersions
 
 ![images](https://github.com/TryA9ain/BypassAddUser_new/blob/master/Snipaste_2020-12-12_13-04-43.jpg)
 
-```
-Usage: BypassAddUser.exe -u username -p password -g groups    添加用户
-       BypassAddUser.exe -u username -p password -g groups -rdp    添加用户，并添加到rdp组
-       BypassAddUser.exe -c UserName NewPassword    更改用户密码
-       BypassAddUser.exe -d UserName    删除用户
-Example: BypassAddUser.exe -u test -p testpass -g administrators
-         BypassAddUser.exe -u test -p testpass -g administrators -rdp
-         BypassAddUser.exe -c test NewtestPass
-         BypassAddUser.exe -d test
-```
+
 
 ### 添加用户，并加入rdp组
 ![images](https://github.com/TryA9ain/BypassAddUser_new/blob/master/Snipaste_2020-12-12_12-32-57.jpg)
