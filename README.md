@@ -15,7 +15,7 @@
 
 ```
 Usage: BypassAddUser.exe -u username -p password -g groups    添加用户
-       BypassAddUser.exe -u username -p password -g groups -rdp 添加用户，并添加到rdp组
+       BypassAddUser.exe -u username -p password -g groups -rdp    添加用户，并添加到rdp组
        BypassAddUser.exe -c UserName NewPassword    更改用户密码
        BypassAddUser.exe -d UserName    删除用户
 Example: BypassAddUser.exe -u test -p testpass -g administrators
