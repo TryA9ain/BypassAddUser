@@ -15,6 +15,14 @@
 
 上传到目标机器注意目标机器存在的`.net`版本，win2008推荐3.5版本，win2012推荐4.0版本
 
+可使用微软社区的工具来检查目标机器存在的`.net`版本
+
+```
+微软地址：   https://docs.microsoft.com/zh-cn/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed
+github地址：  https://github.com/jmalarcon/DotNetVersions
+
+```
+
 ```
 Usage: BypassAddUser.exe -u username -p password -g groups    添加用户
        BypassAddUser.exe -u username -p password -g groups -rdp    添加用户，并添加到rdp组
