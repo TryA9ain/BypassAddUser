@@ -50,3 +50,7 @@ github地址：  https://github.com/jmalarcon/DotNetVersions
 
 ## 参考链接
 https://docs.microsoft.com/zh-cn/troubleshoot/dotnet/csharp/add-user-local-system
+
+## 问题建议
+
+欢迎大佬们提出问题或建议
