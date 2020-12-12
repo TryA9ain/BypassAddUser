@@ -23,3 +23,6 @@ Example: BypassAddUser.exe -u test -p testpass -g administrators
          BypassAddUser.exe -c test NewtestPass
          BypassAddUser.exe -d test
 ```
+
+### 添加用户，并加入rdp组
+![images](https://github.com/TryA9ain/BypassAddUser_new/blob/master/Snipaste_2020-12-12_12-32-57.jpg)
